@@ -1,0 +1,44 @@
+.container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0 auto;
+    width: 80vw;
+    height: 100vh;
+
+}
+.caja{
+    font-family: "Yarndings 12", system-ui;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 60%;
+    font-weight: 900;
+    font-size: 400%;
+    transition: all .5s  ease-in-out;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+.caja:hover{
+    background: rgb(2,0,36);
+    color: solid green;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,50,21,1) 35%, rgba(255,226,0,1) 100%);color: blue;
+    cursor: pointer;
+     transform: rotate(1080deg); 
+     font-size: 500%;
+     border-radius: 20%;
+}
+.caja:active{
+    border: 30px solid red;
+    font-size: 400%;
+    color: red;
+    border-radius: 30% ;
+    transform: rotate(180deg);
+    background: rgb(9,36,0);
+    background: linear-gradient(90deg, rgba(9,36,0,1) 0%, rgba(10,63,16,1) 7%, rgba(11,82,27,1) 12%, rgba(29,240,9,1) 35%, rgba(0,255,94,1) 100%); cursor: cell;
+    
+}
